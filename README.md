@@ -12,17 +12,50 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/sample.png"/>
+	<img src="assets/preview.webp"/>
 </p>
+
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+<img src="assets/latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="assets/frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="assets/macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="assets/mocha.webp"/>
+</details>
+
 
 ## Usage
 
-1. WIP
+1. With Spyder closed, open `~/.spyder-py3/spyder.ini`.
+2. Scroll to the `[appearance]` section, and add the theme(s) you would like to the `names` variable, such as `'catppuccin/mocha'`.
+```
+[appearance]
+...
+names = ['catppuccin/frappe', 'catppuccin/latte', 'catppuccin/macchiato',
+         'catppuccin/mocha', 'emacs', 'idle', ..., 'zenburn']
+```
+3. Scroll to the bottom of the `[appearance]` section, and append the contents of either `dist/all.ini` or the specific flavor you would like, such as `mocha.ini`, to the end of the `[appearance]` section. Note that flavors you add must match the flavors you added to the `names` variable.
+4. Launch spyder and change the theme in `Preferences` > `Appearance` > `Syntax Highlighting Theme`. If you are using latte, also switch the `Interface Theme` to `Light` or `Automatic`.
 
-## 🙋 FAQ (optional)
+## Modifying themes
+You may modify the theme in `Preferences` > `Appearance` > `Edit Selected Theme`. 
+### DO NOT CLICK `Reset to Defaults`. This will crash the preferences menu until you reinstall the theme.
 
--	Q: **_"Where can I find the doc?"_**
-	A: Run `:help theme`
+## 🙋 FAQ
+
+-	Q: **_"Why does the interface theme not change?"_**
+	A: Spyder does not currently allow theming of the window. We will add an interface theme when it is possible.
 
 ## 💝 Thanks to
 
