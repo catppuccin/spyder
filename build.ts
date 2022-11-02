@@ -36,7 +36,7 @@ for (const [flavour, colors] of Object.entries(variants)) {
                 `catppuccin/${ flavour }/number = ('${ hexes.peach }', False, False)\n` +
                 `catppuccin/${ flavour }/instance = ('${ hexes.red }', False, True)`;
 
-  Deno.writeTextFileSync(`dist/${flavour}.ini`, theme);
+  Deno.writeTextFileSync(`dist/${ flavour }.ini`, theme);
   allThemes += theme + '\n';
 }
 
