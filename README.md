@@ -38,23 +38,32 @@
 ## Usage
 
 1. With Spyder closed, open `~/.spyder-py3/spyder.ini`.
-2. Scroll to the `[appearance]` section, and add the theme(s) you would like to the `names` variable, such as `'catppuccin/mocha'`.
-```
-[appearance]
-...
-names = ['catppuccin/frappe', 'catppuccin/latte', 'catppuccin/macchiato',
-         'catppuccin/mocha', 'emacs', 'idle', ..., 'zenburn']
-```
-3. Scroll to the bottom of the `[appearance]` section, and append the contents of either `dist/all.ini` or the specific flavor you would like, such as `mocha.ini`, to the end of the `[appearance]` section. Note that flavors you add must match the flavors you added to the `names` variable.
-4. Launch spyder and change the theme in `Preferences` > `Appearance` > `Syntax Highlighting Theme`. If you are using latte, also switch the `Interface Theme` to `Light` or `Automatic`.
+2. Scroll to the `[appearance]` section, and add your preferred theme(s) to the `names` option:
 
-## Modifying themes
-You may modify the theme in `Preferences` > `Appearance` > `Edit Selected Theme`. 
-### DO NOT CLICK `Reset to Defaults`. This will crash the preferences menu until you reinstall the theme.
+    ```ini
+    [appearance]
+    ...
+    names = ['catppuccin/frappe', 'catppuccin/latte', 'catppuccin/macchiato',
+             'catppuccin/mocha', 'emacs', 'idle', ..., 'zenburn']
+    ```
+
+4. Append the contents of either `dist/all.ini` or the specific flavor you would like (e.g. `mocha.ini`) to the end of the `[appearance]` section.
+
+> [!NOTE]
+> The flavors you add must match the flavors you added to the `names` variable in Step 2.
+
+6. Launch Spyder and change the theme in **Preferences** > **Appearance** > **Syntax Highlighting Theme**. If you are using latte, also switch the **Interface Theme** to **Light** or **Automatic**.
+
+## Customization
+
+You may modify the theme in **Preferences** > **Appearance** > **Edit Selected Theme**. 
+
+> [!WARNING]
+> Do not click **Reset to Defaults**. This will crash the preferences menu until you reinstall the theme.
 
 ## 🙋 FAQ
 
--	Q: **_"Why does the interface theme not change?"_**
+-	Q: **_"Why does the interface theme not change?"_** \
 	A: Spyder does not currently allow theming of the window. We will add an interface theme when it is possible.
 
 ## 💝 Thanks to
