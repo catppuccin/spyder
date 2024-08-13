@@ -1,0 +1,9 @@
+---
+whiskers:
+  version: "2.3.0"
+  filename: "themes/all.ini"
+---
+
+{%- for identifier, _ in flavors -%}
+{{ read_file(path="../themes/" ~ identifier ~ ".ini") }}
+{%- endfor -%}
