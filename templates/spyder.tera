@@ -8,7 +8,7 @@ whiskers:
 
 {%- set prefix = "catppuccin/" ~ flavor.identifier -%}
 
-{{ prefix }}/name = Catppuccin {{ flavor.name }}
+{{ prefix }}/name = Catppuccin {{ flavor.identifier | capitalize }}
 {{ prefix }}/background = #{{ base.hex }}
 {{ prefix }}/currentline = #{{ surface0.hex }}
 {{ prefix }}/currentcell = #{{ base.hex }}
