@@ -52,7 +52,7 @@
 > [!NOTE]
 > The flavors you add must match the flavors you added to the `names` variable in Step 2.
 
-6. Launch Spyder and change the theme in **Preferences** > **Appearance** > **Syntax Highlighting Theme**. If you are using latte, also switch the **Interface Theme** to **Light** or **Automatic**.
+4. Launch Spyder and change the theme in **Preferences** > **Appearance** > **Syntax Highlighting Theme**. If you are using latte, also switch the **Interface Theme** to **Light** or **Automatic**.
 
 ## Customization
 
