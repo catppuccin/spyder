@@ -37,7 +37,10 @@
 
 ## Usage
 
-1. With Spyder closed, open `~/.spyder-py3/spyder.ini`.
+1. With Spyder closed, open:
+- Windows, macOS: `~/.spyder-py3/config/spyder.ini`  
+- Linux: `~/.config/spyder-py3/config/spyder.ini`
+
 2. Scroll to the `[appearance]` section, and add your preferred theme(s) to the `names` option:
 
     ```ini
