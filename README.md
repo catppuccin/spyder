@@ -43,7 +43,7 @@
     - `~/.spyder-py3/config/spyder.ini`
     - `~/.config/spyder-py3/config/spyder.ini`
 
-3. Scroll to the `[appearance]` section, and add your preferred theme(s) to the `names` option:
+2. Scroll to the `[appearance]` section, and add your preferred theme(s) to the `names` option:
 
     ```ini
     [appearance]
@@ -52,7 +52,7 @@
              'catppuccin/mocha', 'emacs', 'idle', ..., 'zenburn']
     ```
 
-4. Append the contents of either `themes/all.ini` or the specific flavor you would like (e.g. `themes/mocha.ini`) to the end of the `[appearance]` section.
+3. Append the contents of either `themes/all.ini` or the specific flavor you would like (e.g. `themes/mocha.ini`) to the end of the `[appearance]` section.
 
 > [!NOTE]
 > The flavors you add must match the flavors you added to the `names` variable in Step 2.
